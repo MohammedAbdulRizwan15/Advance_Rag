@@ -119,4 +119,4 @@ if question and "retriever" in st.session_state:
     # # extracting related documents from the retriever
     related_docs = st.session_state.retriever.invoke(question)
     answer = generate_response(question, related_docs)
-    st.chat_message("assistant").write(answer)
+    st.chat_message("assistant").write(answer) # returning the answer
