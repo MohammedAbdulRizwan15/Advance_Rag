@@ -1,0 +1,15 @@
+streamlit
+langchain
+langchain-community
+openai
+faiss-cpu
+langchain-openai
+langchain-core
+unstructured
+rank_bm25
+nltk
+tiktoken
+sentence-transformers
+redis
+msoffcrypto
+openpyxl
